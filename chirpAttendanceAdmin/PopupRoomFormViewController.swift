@@ -12,6 +12,7 @@ import var CommonCrypto.CC_MD5_DIGEST_LENGTH
 import func CommonCrypto.CC_MD5
 import typealias CommonCrypto.CC_LONG
 
+var hashed : String = "";
 class PopupRoomFormViewController: UIViewController {
 
     @IBOutlet weak var roomName: UITextField!
@@ -63,7 +64,7 @@ class PopupRoomFormViewController: UIViewController {
         let md5Data = MD5(string: String(substr!))
         let md5Hex =  md5Data.map { String(format: "%02hhx", $0) }.joined()
         print("md5Hex: \(md5Hex)")
-        let hashed = md5Hex.prefix(5)
+        hashed = String(md5Hex.prefix(5))
         //        let ref = Database.database().reference().child("Admin").child("rooms").child("").queryEqual(toValue: "569fe")
         //       print(ref)
         
@@ -91,7 +92,7 @@ class PopupRoomFormViewController: UIViewController {
         refer.child("rooms").child(String(hashed)).child("startingUnixTime").setValue(String(Int(timestart)));
         refer.child("rooms").child(String(hashed)).child("roomName").setValue(myString);
         refer.child("rooms").child(String(hashed)).child("hashedKey").setValue(String(hashed));
-         dismiss(animated: true, completion: nil)
+        self.performSegue(withIdentifier: "goToChirp", sender: (Any).self);
     }
     
     

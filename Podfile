@@ -9,4 +9,5 @@ target 'chirpAttendanceAdmin' do
 pod 'Firebase/Auth'
 pod 'Firebase/Analytics'
 pod 'Firebase/Database'
+pod 'ChirpSDK'
 end

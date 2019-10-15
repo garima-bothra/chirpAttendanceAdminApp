@@ -64,18 +64,19 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="129.91071428571428"/>
         </scene>
-        <!--RoomViewController-->
+        <!--Room View Controller-->
         <scene sceneID="qeQ-yH-g1e">
             <objects>
-                <viewController title="RoomViewController" id="s0G-gE-da3" customClass="RoomViewController" customModule="chirpAttendanceAdmin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="s0G-gE-da3" customClass="RoomViewController" customModule="chirpAttendanceAdmin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GoH-R2-pmV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xy0-KB-Xtw">
-                                <rect key="frame" x="146" y="399" width="123" height="98"/>
+                                <rect key="frame" x="231" y="586" width="123" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Make Room">
+                                <color key="backgroundColor" red="0.54901960780000003" green="0.32156862749999998" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Create A Room">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -83,7 +84,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.54901960780000003" green="0.32156862749999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3fx-4n-hbo"/>
                     </view>
                     <connections>
@@ -138,11 +139,37 @@
                     <connections>
                         <outlet property="ClassTime" destination="576-9i-STc" id="SX4-d5-9pw"/>
                         <outlet property="roomName" destination="sa2-uH-Lbs" id="6bk-Fq-87A"/>
+                        <segue destination="sM6-yP-nZx" kind="show" identifier="goToChirp" id="hv2-9I-FJ2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ht0-Nc-jc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2459.4202898550725" y="129.91071428571428"/>
+        </scene>
+        <!--Chirp Sender View Controller-->
+        <scene sceneID="6Tj-8e-but">
+            <objects>
+                <viewController id="sM6-yP-nZx" customClass="chirpSenderViewController" customModule="chirpAttendanceAdmin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ech-x6-36t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnj-FM-2uN">
+                                <rect key="frame" x="94" y="342" width="227" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="ezgif.com-gif-maker"/>
+                                <connections>
+                                    <action selector="sendChirpData:" destination="sM6-yP-nZx" eventType="touchUpInside" id="AGX-1n-1T2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="W0m-XR-AEz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXi-XM-iAH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3147.826086956522" y="129.91071428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZMX-5u-PBi">
@@ -163,4 +190,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ezgif.com-gif-maker" width="25" height="25"/>
+    </resources>
 </document>

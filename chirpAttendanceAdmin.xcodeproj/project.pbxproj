@@ -16,6 +16,7 @@
 		86439D192354B82F00B74DA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86439D182354B82F00B74DA3 /* GoogleService-Info.plist */; };
 		86439D1B2354EF2D00B74DA3 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */; };
 		86439D1D2355EDE600B74DA3 /* PopupRoomFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D1C2355EDE600B74DA3 /* PopupRoomFormViewController.swift */; };
+		867D6FFD2356272C00F12FB5 /* chirpSenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D6FFC2356272C00F12FB5 /* chirpSenderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		86439D182354B82F00B74DA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 		86439D1C2355EDE600B74DA3 /* PopupRoomFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupRoomFormViewController.swift; sourceTree = "<group>"; };
+		867D6FFC2356272C00F12FB5 /* chirpSenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chirpSenderViewController.swift; sourceTree = "<group>"; };
 		8942E03A325E31C8304EF0D1 /* Pods-chirpAttendanceAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chirpAttendanceAdmin.release.xcconfig"; path = "Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */,
 				86439D1C2355EDE600B74DA3 /* PopupRoomFormViewController.swift */,
 				86439D0A2354B79E00B74DA3 /* Main.storyboard */,
+				867D6FFC2356272C00F12FB5 /* chirpSenderViewController.swift */,
 				86439D0D2354B79F00B74DA3 /* Assets.xcassets */,
 				86439D0F2354B79F00B74DA3 /* LaunchScreen.storyboard */,
 				86439D122354B79F00B74DA3 /* Info.plist */,
@@ -217,6 +220,7 @@
 				86439D1B2354EF2D00B74DA3 /* RoomViewController.swift in Sources */,
 				86439D092354B79E00B74DA3 /* ViewController.swift in Sources */,
 				86439D072354B79E00B74DA3 /* AppDelegate.swift in Sources */,
+				867D6FFD2356272C00F12FB5 /* chirpSenderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
