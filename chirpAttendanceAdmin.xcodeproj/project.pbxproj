@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38ED08B3CEBD1697674670DB /* Pods_chirpAttendanceAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1E93E5C92789B082A24EB1 /* Pods_chirpAttendanceAdmin.framework */; };
 		86439D072354B79E00B74DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D062354B79E00B74DA3 /* AppDelegate.swift */; };
 		86439D092354B79E00B74DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D082354B79E00B74DA3 /* ViewController.swift */; };
 		86439D0C2354B79E00B74DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86439D0A2354B79E00B74DA3 /* Main.storyboard */; };
 		86439D0E2354B79F00B74DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86439D0D2354B79F00B74DA3 /* Assets.xcassets */; };
 		86439D112354B79F00B74DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86439D0F2354B79F00B74DA3 /* LaunchScreen.storyboard */; };
+		86439D192354B82F00B74DA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86439D182354B82F00B74DA3 /* GoogleService-Info.plist */; };
+		86439D1B2354EF2D00B74DA3 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		309D5838855082DE5A9AD66B /* Pods-chirpAttendanceAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chirpAttendanceAdmin.debug.xcconfig"; path = "Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1E93E5C92789B082A24EB1 /* Pods_chirpAttendanceAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chirpAttendanceAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86439D032354B79E00B74DA3 /* chirpAttendanceAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chirpAttendanceAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86439D062354B79E00B74DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86439D082354B79E00B74DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		86439D0D2354B79F00B74DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86439D102354B79F00B74DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86439D122354B79F00B74DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86439D182354B82F00B74DA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		8942E03A325E31C8304EF0D1 /* Pods-chirpAttendanceAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chirpAttendanceAdmin.release.xcconfig"; path = "Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38ED08B3CEBD1697674670DB /* Pods_chirpAttendanceAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				86439D052354B79E00B74DA3 /* chirpAttendanceAdmin */,
 				86439D042354B79E00B74DA3 /* Products */,
+				8EAB5FE6A0A828D2758E526B /* Pods */,
+				FFCC8E91023DEF8D653A8509 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,31 @@
 			children = (
 				86439D062354B79E00B74DA3 /* AppDelegate.swift */,
 				86439D082354B79E00B74DA3 /* ViewController.swift */,
+				86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */,
 				86439D0A2354B79E00B74DA3 /* Main.storyboard */,
 				86439D0D2354B79F00B74DA3 /* Assets.xcassets */,
 				86439D0F2354B79F00B74DA3 /* LaunchScreen.storyboard */,
 				86439D122354B79F00B74DA3 /* Info.plist */,
+				86439D182354B82F00B74DA3 /* GoogleService-Info.plist */,
 			);
 			path = chirpAttendanceAdmin;
+			sourceTree = "<group>";
+		};
+		8EAB5FE6A0A828D2758E526B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				309D5838855082DE5A9AD66B /* Pods-chirpAttendanceAdmin.debug.xcconfig */,
+				8942E03A325E31C8304EF0D1 /* Pods-chirpAttendanceAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFCC8E91023DEF8D653A8509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E93E5C92789B082A24EB1 /* Pods_chirpAttendanceAdmin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86439D152354B79F00B74DA3 /* Build configuration list for PBXNativeTarget "chirpAttendanceAdmin" */;
 			buildPhases = (
+				C805BB16B05B171D496C9839 /* [CP] Check Pods Manifest.lock */,
 				86439CFF2354B79E00B74DA3 /* Sources */,
 				86439D002354B79E00B74DA3 /* Frameworks */,
 				86439D012354B79E00B74DA3 /* Resources */,
+				3017D02CE3E68ADDBAB719E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86439D112354B79F00B74DA3 /* LaunchScreen.storyboard in Resources */,
+				86439D192354B82F00B74DA3 /* GoogleService-Info.plist in Resources */,
 				86439D0E2354B79F00B74DA3 /* Assets.xcassets in Resources */,
 				86439D0C2354B79E00B74DA3 /* Main.storyboard in Resources */,
 			);
@@ -130,11 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3017D02CE3E68ADDBAB719E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C805BB16B05B171D496C9839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chirpAttendanceAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86439CFF2354B79E00B74DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86439D1B2354EF2D00B74DA3 /* RoomViewController.swift in Sources */,
 				86439D092354B79E00B74DA3 /* ViewController.swift in Sources */,
 				86439D072354B79E00B74DA3 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +356,7 @@
 		};
 		86439D162354B79F00B74DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309D5838855082DE5A9AD66B /* Pods-chirpAttendanceAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +375,7 @@
 		};
 		86439D172354B79F00B74DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8942E03A325E31C8304EF0D1 /* Pods-chirpAttendanceAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
