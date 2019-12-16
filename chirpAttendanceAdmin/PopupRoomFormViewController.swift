@@ -12,9 +12,11 @@ import var CommonCrypto.CC_MD5_DIGEST_LENGTH
 import func CommonCrypto.CC_MD5
 import typealias CommonCrypto.CC_LONG
 
+
 var hashed : String = "";
 class PopupRoomFormViewController: UIViewController {
 
+    @IBOutlet weak var agenda: UITextField!
     @IBOutlet weak var roomName: UITextField!
     @IBOutlet weak var ClassTime: UITextField!
     override func viewDidLoad() {
@@ -23,6 +25,10 @@ class PopupRoomFormViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func createRoomButtonPressed(_ sender: Any) {
+        guard let mySt = agenda.text, !mySt.isEmpty else {
+            print("String is nil or empty.")
+            return // or break, continue, throw
+        }
         let myOptionalString = roomName.text;
         guard let myString = myOptionalString, !myString.isEmpty else {
             print("String is nil or empty.")
@@ -34,12 +40,12 @@ class PopupRoomFormViewController: UIViewController {
         }
         print(myString)
         print(myStr)
-        var post1Ref = refer.child("Admin").child(adminName).child("rooms").childByAutoId()
-        
-        
+        var post1Ref = referadmin.child("rooms").childByAutoId()
+        print(post1Ref)
+        print(111)
         var postId = post1Ref.key
         print(postId)
-        let substr = postId?.prefix(5)
+    
         
         
         
@@ -61,10 +67,11 @@ class PopupRoomFormViewController: UIViewController {
         }
         
         
-        let md5Data = MD5(string: String(substr!))
+        let md5Data = MD5(string: postId!)
         let md5Hex =  md5Data.map { String(format: "%02hhx", $0) }.joined()
         print("md5Hex: \(md5Hex)")
         hashed = String(md5Hex.prefix(5))
+        
         //        let ref = Database.database().reference().child("Admin").child("rooms").child("").queryEqual(toValue: "569fe")
         //       print(ref)
         
@@ -81,17 +88,17 @@ class PopupRoomFormViewController: UIViewController {
         //
         //        })
         post1Ref.setValue(hashed)
+        print("TEST")
         print(hashed)
         
         let timestart = NSDate().timeIntervalSince1970
-        print(Int(timestart))
-        print(Int(myStr))
+       
         let timeEnd = Int(timestart)+(60*Int(myStr)! ?? 0)
-        print(timeEnd)
-        refer.child("rooms").child(String(hashed)).child("endingUnixTime").setValue(String(timeEnd));
-        refer.child("rooms").child(String(hashed)).child("startingUnixTime").setValue(String(Int(timestart)));
-        refer.child("rooms").child(String(hashed)).child("roomName").setValue(myString);
-        refer.child("rooms").child(String(hashed)).child("hashedKey").setValue(String(hashed));
+        referroom = refer.child("rooms").child(String(hashed))
+        referroom.setValue(["agenda":mySt,"location":myString,"hashedKey":hashed,"startingUnixTime":String(Int(timestart)),"endingUnixTime":String(Int(timeEnd))])
+        agenda.text = ""
+        roomName.text = ""
+        ClassTime.text = ""
         self.performSegue(withIdentifier: "goToChirp", sender: (Any).self);
     }
     

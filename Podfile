@@ -10,4 +10,5 @@ pod 'Firebase/Auth'
 pod 'Firebase/Analytics'
 pod 'Firebase/Database'
 pod 'ChirpSDK'
+pod 'GoogleSignIn'
 end

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		38ED08B3CEBD1697674670DB /* Pods_chirpAttendanceAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1E93E5C92789B082A24EB1 /* Pods_chirpAttendanceAdmin.framework */; };
+		86102F5123A2F27F0069241B /* AttenddesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86102F5023A2F27F0069241B /* AttenddesViewController.swift */; };
+		86102F5323A2F4030069241B /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86102F5223A2F4030069241B /* user.swift */; };
+		86102F5523A490D70069241B /* DefaulterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86102F5423A490D70069241B /* DefaulterViewController.swift */; };
+		86102F5723A6018C0069241B /* AttendeesMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86102F5623A6018C0069241B /* AttendeesMeetViewController.swift */; };
+		86102F5923A6047F0069241B /* DefaulterMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86102F5823A6047F0069241B /* DefaulterMeetViewController.swift */; };
 		86439D072354B79E00B74DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D062354B79E00B74DA3 /* AppDelegate.swift */; };
 		86439D092354B79E00B74DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D082354B79E00B74DA3 /* ViewController.swift */; };
 		86439D0C2354B79E00B74DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86439D0A2354B79E00B74DA3 /* Main.storyboard */; };
@@ -15,13 +20,26 @@
 		86439D112354B79F00B74DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86439D0F2354B79F00B74DA3 /* LaunchScreen.storyboard */; };
 		86439D192354B82F00B74DA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86439D182354B82F00B74DA3 /* GoogleService-Info.plist */; };
 		86439D1B2354EF2D00B74DA3 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */; };
-		86439D1D2355EDE600B74DA3 /* PopupRoomFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439D1C2355EDE600B74DA3 /* PopupRoomFormViewController.swift */; };
 		867D6FFD2356272C00F12FB5 /* chirpSenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D6FFC2356272C00F12FB5 /* chirpSenderViewController.swift */; };
+		86F2CFCF239B6A5600D23696 /* Red_Hat_Display in Resources */ = {isa = PBXBuildFile; fileRef = 86F2CFCE239B6A5600D23696 /* Red_Hat_Display */; };
+		86F2CFD1239B75DA00D23696 /* MeetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F2CFD0239B75DA00D23696 /* MeetCell.xib */; };
+		86F2CFD5239C188000D23696 /* CustomMeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2CFD4239C188000D23696 /* CustomMeetingCell.swift */; };
+		86F2CFD7239C22EE00D23696 /* meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2CFD6239C22EE00D23696 /* meeting.swift */; };
+		86F2CFDA239CD31600D23696 /* AttendeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2CFD8239CD31600D23696 /* AttendeeTableViewCell.swift */; };
+		86F2CFDB239CD31600D23696 /* AttendeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F2CFD9239CD31600D23696 /* AttendeeTableViewCell.xib */; };
+		86F2CFE2239E06E700D23696 /* ExpandedMeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2CFE0239E06E700D23696 /* ExpandedMeetingCell.swift */; };
+		86F2CFE3239E06E700D23696 /* ExpandedMeetingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F2CFE1239E06E700D23696 /* ExpandedMeetingCell.xib */; };
+		86F2CFE5239E0DA600D23696 /* PopupRoomFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2CFE4239E0DA500D23696 /* PopupRoomFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		309D5838855082DE5A9AD66B /* Pods-chirpAttendanceAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chirpAttendanceAdmin.debug.xcconfig"; path = "Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin.debug.xcconfig"; sourceTree = "<group>"; };
 		3F1E93E5C92789B082A24EB1 /* Pods_chirpAttendanceAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chirpAttendanceAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86102F5023A2F27F0069241B /* AttenddesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenddesViewController.swift; sourceTree = "<group>"; };
+		86102F5223A2F4030069241B /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		86102F5423A490D70069241B /* DefaulterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaulterViewController.swift; sourceTree = "<group>"; };
+		86102F5623A6018C0069241B /* AttendeesMeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeesMeetViewController.swift; sourceTree = "<group>"; };
+		86102F5823A6047F0069241B /* DefaulterMeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaulterMeetViewController.swift; sourceTree = "<group>"; };
 		86439D032354B79E00B74DA3 /* chirpAttendanceAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chirpAttendanceAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86439D062354B79E00B74DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86439D082354B79E00B74DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,8 +49,16 @@
 		86439D122354B79F00B74DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86439D182354B82F00B74DA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
-		86439D1C2355EDE600B74DA3 /* PopupRoomFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupRoomFormViewController.swift; sourceTree = "<group>"; };
 		867D6FFC2356272C00F12FB5 /* chirpSenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chirpSenderViewController.swift; sourceTree = "<group>"; };
+		86F2CFCE239B6A5600D23696 /* Red_Hat_Display */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Red_Hat_Display; sourceTree = "<group>"; };
+		86F2CFD0239B75DA00D23696 /* MeetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetCell.xib; sourceTree = "<group>"; };
+		86F2CFD4239C188000D23696 /* CustomMeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomMeetingCell.swift; path = "/Users/garima/Documents/iOSDev /chirpAttendanceAdmin/chirpAttendanceAdmin/CustomMeetingCell.swift"; sourceTree = "<absolute>"; };
+		86F2CFD6239C22EE00D23696 /* meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meeting.swift; sourceTree = "<group>"; };
+		86F2CFD8239CD31600D23696 /* AttendeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeTableViewCell.swift; sourceTree = "<group>"; };
+		86F2CFD9239CD31600D23696 /* AttendeeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttendeeTableViewCell.xib; sourceTree = "<group>"; };
+		86F2CFE0239E06E700D23696 /* ExpandedMeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedMeetingCell.swift; sourceTree = "<group>"; };
+		86F2CFE1239E06E700D23696 /* ExpandedMeetingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandedMeetingCell.xib; sourceTree = "<group>"; };
+		86F2CFE4239E0DA500D23696 /* PopupRoomFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupRoomFormViewController.swift; sourceTree = "<group>"; };
 		8942E03A325E31C8304EF0D1 /* Pods-chirpAttendanceAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chirpAttendanceAdmin.release.xcconfig"; path = "Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,13 +98,26 @@
 				86439D062354B79E00B74DA3 /* AppDelegate.swift */,
 				86439D082354B79E00B74DA3 /* ViewController.swift */,
 				86439D1A2354EF2D00B74DA3 /* RoomViewController.swift */,
-				86439D1C2355EDE600B74DA3 /* PopupRoomFormViewController.swift */,
+				86102F5423A490D70069241B /* DefaulterViewController.swift */,
 				86439D0A2354B79E00B74DA3 /* Main.storyboard */,
+				86102F5823A6047F0069241B /* DefaulterMeetViewController.swift */,
+				86102F5623A6018C0069241B /* AttendeesMeetViewController.swift */,
+				86102F5023A2F27F0069241B /* AttenddesViewController.swift */,
+				86F2CFD8239CD31600D23696 /* AttendeeTableViewCell.swift */,
+				86F2CFD9239CD31600D23696 /* AttendeeTableViewCell.xib */,
+				86F2CFE4239E0DA500D23696 /* PopupRoomFormViewController.swift */,
+				86F2CFD0239B75DA00D23696 /* MeetCell.xib */,
+				86F2CFD4239C188000D23696 /* CustomMeetingCell.swift */,
+				86F2CFE0239E06E700D23696 /* ExpandedMeetingCell.swift */,
+				86F2CFE1239E06E700D23696 /* ExpandedMeetingCell.xib */,
+				86F2CFCE239B6A5600D23696 /* Red_Hat_Display */,
 				867D6FFC2356272C00F12FB5 /* chirpSenderViewController.swift */,
 				86439D0D2354B79F00B74DA3 /* Assets.xcassets */,
 				86439D0F2354B79F00B74DA3 /* LaunchScreen.storyboard */,
 				86439D122354B79F00B74DA3 /* Info.plist */,
 				86439D182354B82F00B74DA3 /* GoogleService-Info.plist */,
+				86F2CFD6239C22EE00D23696 /* meeting.swift */,
+				86102F5223A2F4030069241B /* user.swift */,
 			);
 			path = chirpAttendanceAdmin;
 			sourceTree = "<group>";
@@ -112,6 +151,7 @@
 				86439D002354B79E00B74DA3 /* Frameworks */,
 				86439D012354B79E00B74DA3 /* Resources */,
 				3017D02CE3E68ADDBAB719E9 /* [CP] Embed Pods Frameworks */,
+				922894F70EF17EB70BE4D15D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,7 +200,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F2CFD1239B75DA00D23696 /* MeetCell.xib in Resources */,
 				86439D112354B79F00B74DA3 /* LaunchScreen.storyboard in Resources */,
+				86F2CFE3239E06E700D23696 /* ExpandedMeetingCell.xib in Resources */,
+				86F2CFDB239CD31600D23696 /* AttendeeTableViewCell.xib in Resources */,
+				86F2CFCF239B6A5600D23696 /* Red_Hat_Display in Resources */,
 				86439D192354B82F00B74DA3 /* GoogleService-Info.plist in Resources */,
 				86439D0E2354B79F00B74DA3 /* Assets.xcassets in Resources */,
 				86439D0C2354B79E00B74DA3 /* Main.storyboard in Resources */,
@@ -185,6 +229,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922894F70EF17EB70BE4D15D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chirpAttendanceAdmin/Pods-chirpAttendanceAdmin-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C805BB16B05B171D496C9839 /* [CP] Check Pods Manifest.lock */ = {
@@ -216,8 +277,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86439D1D2355EDE600B74DA3 /* PopupRoomFormViewController.swift in Sources */,
+				86102F5923A6047F0069241B /* DefaulterMeetViewController.swift in Sources */,
+				86F2CFD5239C188000D23696 /* CustomMeetingCell.swift in Sources */,
+				86F2CFE2239E06E700D23696 /* ExpandedMeetingCell.swift in Sources */,
+				86F2CFD7239C22EE00D23696 /* meeting.swift in Sources */,
+				86F2CFDA239CD31600D23696 /* AttendeeTableViewCell.swift in Sources */,
+				86F2CFE5239E0DA600D23696 /* PopupRoomFormViewController.swift in Sources */,
 				86439D1B2354EF2D00B74DA3 /* RoomViewController.swift in Sources */,
+				86102F5123A2F27F0069241B /* AttenddesViewController.swift in Sources */,
+				86102F5323A2F4030069241B /* user.swift in Sources */,
+				86102F5523A490D70069241B /* DefaulterViewController.swift in Sources */,
+				86102F5723A6018C0069241B /* AttendeesMeetViewController.swift in Sources */,
 				86439D092354B79E00B74DA3 /* ViewController.swift in Sources */,
 				86439D072354B79E00B74DA3 /* AppDelegate.swift in Sources */,
 				867D6FFD2356272C00F12FB5 /* chirpSenderViewController.swift in Sources */,
